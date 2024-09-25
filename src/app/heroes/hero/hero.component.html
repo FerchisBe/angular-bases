@@ -1,4 +1,4 @@
-<h1>{{ name }}</h1>>
+<h1>{{ name }}</h1>
 
 <dl>
   <td>Nombre:</td>
@@ -16,7 +16,7 @@
 </dl>
 
 <button
-  *ngIf="name !== 'Spiderman' "
+  *ngIf="name !== 'Spiderman'"
   (click) = "changeHero()"
   class="btn btn-primary mx-2">
   Cambiar nombre
@@ -30,8 +30,7 @@
 </button>
 
 <button
-  *ngIf="resetForm()"
-  (click) = "changeAge()"
+  (click) = "resetForm()"
   class="btn btn-primary mx-2">
   Reset
 </button>

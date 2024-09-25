@@ -13,7 +13,6 @@ export class ListComponent {
   revomeLastHero():void {
     this.deletedHero = this.heroNames.pop();
     // console.log({ deletedHero })
-
   }
 
 }

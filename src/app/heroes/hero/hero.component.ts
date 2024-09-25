@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeroComponent {
 
-  public name: string = 'ironman';
+  public name: string = 'Ironman';
   public age: number = 45;
 
   get capitalizedName():string {
@@ -27,7 +27,7 @@ export class HeroComponent {
   }
 
   resetForm():void {
-    this.name = 'ironman';
+    this.name = 'Ironman';
     this.age = 45;
   }
 
